@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lilita+One&display=swap');
+
+   * {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+    }
+.corpo{
+    margin-bottom: 60px;
+    
+    
+}
+
+body {
+    font-size: 100%;
+    background-color: #2A83D5
+    
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo{
+    display: flex;
+    font-family: 'Lilita One', cursive;
+    font-size: 100px;
+    justify-content: center;
+
+}
+
+.subtitulo{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+    justify-content: center;
+}
+
+.texto-botao{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lilita One', cursive;
+    letter-spacing: 3px;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.conteudo-botao{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.foto-capa{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.25)
+}
+
+.titulo-sobremim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 40px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3px;
+    width: 550px;
+    background-color: white;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    border-radius: 40px;
+    margin: auto;
+  }
+ .card img{
+    padding-top: 10px;
+    width: 90%;
+    border-radius: 30px;
+ }
+  .card-info {
+    font-family: 'Itim', cursive;
+    padding: 10px;
+    font-weight: 1000;
+  }
+
+  .sobre{
+    padding-bottom: 10px;
+  }
+  @media only screen and (max-width: 820px){
+   
+    .texto-botao{
+        display: flex;
+        text-align: center;
+        
+ }
+ }
+
+ @media only screen and (max-width: 540px){
+    .card{
+        max-width: 450px;
+    }
+ }
+ 
+ @media only screen and (max-width: 414px){
+    .titulo{
+           font-size: 80px; 
+           
+       }
+   .imagem{
+       max-width: 400px;
+       size: 1px;
+   }
+   .card{
+       max-width: 350px;
+   } 
+   .botao-e-texto{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        
+   }   
+   .botao{
+       max-width: 350px
+   }
+
+}
+
+@media only screen and (max-width: 412px){
+   
+    .texto-botao{
+        text-align: center;
+        
+}  
+ }
+
+ @media only screen and (max-width: 390px){
+    .titulo{
+           font-size: 80px; 
+           
+       }
+   .imagem{
+       max-width: 380px;
+   }
+   .card{
+        
+        max-width: 350px;
+   } 
+   .texto-botao{
+        font-size: 25px;
+   }   
+   .botao{
+       max-width: 350px
+   }
+
+}
+
+@media only screen and (max-width: 375px){
+    .titulo{
+           font-size: 80px; 
+           
+       }
+   .imagem{
+       max-width: 350px;
+       
+   }
+   .card{
+       max-width: 350px;
+   } 
+   .botao-e-texto{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+   }   
+   
+   
+}
+
+@media only screen and (max-width: 360px){
+    .titulo{
+           font-size: 80px; 
+           
+       }
+   .imagem{
+       max-width: 350px;
+   }
+   
+}
+
+@media only screen and (max-width: 280px){
+    .titulo{
+        font-size: 60px; 
+        
+    }
+    .botao{
+        max-width: 250px
+    }
+    .card{
+        max-width: 250px;
+    }
+    .imagem{
+        max-width: 250px;
+    }
+
+}
+  
+
+
+
+
+
+ 
+
